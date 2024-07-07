@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<title>Web Server</title>
+<style>
+    body {
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .green {
+        background-color: green;
+    }
+
+    .blue {
+        background-color: blue;
+    }
+
+    .red {
+        background-color: red;
+    }
+</style>
+</head>
+<body>
+
+<script>
+    function getRandomNumber() {
+        return Math.floor(Math.random() * 3); 
+    }
+    function setRandomBackgroundColor() {
+        var randomNumber = getRandomNumber();
+        var body = document.querySelector('body');
+        body.classList.remove('green', 'blue', 'red');
+        if (randomNumber === 0) {
+            body.classList.add('green');
+        } else if (randomNumber === 1) {
+            body.classList.add('blue');
+        } else {
+            body.classList.add('red');
+        }
+    }
+    setRandomBackgroundColor();
+</script>
+<h1>Hello World!</h1>
+</body>
+</html>
