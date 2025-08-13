@@ -9,4 +9,4 @@ Project:
   - Information includes time in the city of their favorite team, the weather and the stadium of their favorite team, and the teams twitter feed
 
 # 12 August 2025 UPDATE:
-- THe free twitter API that I was using no longer works
+- The free twitter API that I was using no longer works
