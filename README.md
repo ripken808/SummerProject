@@ -10,3 +10,4 @@ Project:
 
 # 12 August 2025 UPDATE:
 - The free twitter API that I was using no longer works
+- Open weather API key has been deactivated
